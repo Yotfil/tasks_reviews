@@ -1,12 +1,12 @@
 /*  punto 1 */
- let soccerplayers = ["messi", "ronaldo", "falcao", "james", "ospina"]
- console.log(soccerplayers)
- let tennisplayers = ["federer", "nadal", "djokovic", "medvered", "murray"]
- console.log(tennisplayers)
- let basketballplayers = ["lebron", "curry", "garden", "green", "porcinguis"]
- console.log(basketballplayers)
- let fastfood = ["pizza", "hot dog", 'donnuts', 'hamburger' ]
- console.log(fastfood)
+ let soccerPlayers = ["messi", "ronaldo", "falcao", "james", "ospina"]
+ 
+ let tennisPlayers = ["federer", "nadal", "djokovic", "medvered", "murray"]
+
+ let basketballPlayers = ["lebron", "curry", "garden", "green", "porcinguis"]
+
+ let fastFood = ["pizza", "hot dog", 'donnuts', 'hamburger' ]
+
 
 /*  punto2 */
 
@@ -21,7 +21,7 @@
          favoriteartits:["bad bunnny","dua lipa","ozuna",["j cortez",'daddy yankie']]
      }
  }
-console.log(user)
+
 
  const brother = {
      name:'Gabriel',
@@ -34,7 +34,6 @@ console.log(user)
          favoritefood:["hot dog","pizza","chiken",["hamburger",'pasta']]
      }
  }
- console.log(brother)
 
  const mother = {
      name:'Angela',
@@ -47,7 +46,7 @@ console.log(user)
          favoriteactivities:["pray","listen music","read",["watch tv",'shopping']]
      }
  }
- console.log(mother)
+ 
 
  /* punto3 */
  
@@ -87,13 +86,12 @@ console.log(user)
 
 /* punto #4
  */
- console.log(array)
-
+ 
  let nombre = prompt ("su nombre")
  let lastname = prompt ("su apellido")
  let age = prompt ("age")
  function saludo(nombre,lastname,age)
  {
-    return String(nombre), String(lastname),Number(age)
-}
-console.log(saludo (nombre),(lastname),(age))
+    return "<div> hola "+ nombre + " " + lastname + " tu edad " + age + "</div>"
+ }
+console.log(saludo (nombre,lastname,age))
