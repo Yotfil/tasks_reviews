@@ -78,3 +78,17 @@ let user3 = {
 }
 
 console.log(user3)
+
+// Programa
+
+let nombre1 = prompt("Ingrese su primer nombre por favor: ")
+let nombre2 = prompt("Ingrese su segundo nombre por favor: ")
+let apellido1 = prompt("Ingrese su primer apellido por favor: ")
+let apellido2 = prompt("Ingrese su segundo apellido por favor: ")
+let edad = Number(prompt("por favor escriba cuantos años tiene: "))
+
+function saludo(nomb1, nomb2, apell1, apell2, age) {
+    return "<div> Buenos dias " + nombre1 + " " + nombre2 + " " + apellido1 + " " + apellido2 + " Tu edas es " + edad + "</div>"
+}
+
+console.log(saludo(nombre1, nombre2, apellido1, apellido2))
